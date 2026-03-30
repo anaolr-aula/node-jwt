@@ -84,6 +84,13 @@ project/
 └── README.md
 
 ````
+<p align="center">
+  <img src="./assets/login.png" alt="Tela de login do projeto" width="700" />
+</p>
+
+<p align="center">
+  Interface de login desenvolvida em React integrada ao backend com autenticação JWT.
+</p>
 
 # Como executar o projeto
 
