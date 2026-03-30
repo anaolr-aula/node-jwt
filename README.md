@@ -100,8 +100,8 @@ Antes de rodar o projeto, é necessário ter instalado:
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/anaolr-aula/node-jwt.git
+cd node-jwt
 ```
 
 ---
@@ -131,13 +131,13 @@ DATABASE_URL=sua_conexao
 Inicie o servidor:
 
 ```bash
-npm run dev
+node index.js
 ```
 
 Se estiver funcionando corretamente, o backend ficará disponível em:
 
 ```bash
-http://localhost:5000
+http://localhost:3040
 ```
 
 ---
@@ -159,13 +159,13 @@ npm install
 Inicie a aplicação React:
 
 ```bash
-npm start
+npm run dev
 ```
 
 O frontend ficará disponível em:
 
 ```bash
-http://localhost:3000
+http://localhost:5173
 ```
 
 ---
@@ -174,7 +174,7 @@ http://localhost:3000
 
 1. Inicie primeiro o backend
 2. Depois execute o frontend
-3. Acesse `http://localhost:3000`
+3. Acesse `http://localhost:3040`
 4. Faça login ou cadastro
 5. O frontend irá consumir a API e utilizar o token JWT gerado pelo backend
 
@@ -185,27 +185,13 @@ http://localhost:3000
 ### Backend
 
 ```bash
-npm run dev
+node index.js
 ```
-
-Inicia o servidor em modo de desenvolvimento.
-
-```bash
-npm start
-```
-
-Inicia o servidor em modo de produção.
 
 ### Frontend
 
 ```bash
-npm start
+npm run dev
 ```
 
-Executa a aplicação React.
 
-```bash
-npm run build
-```
-
-Gera a versão de produção do frontend.
