@@ -85,7 +85,7 @@ project/
 
 ````
 <p align="center">
-  <img src="./assets/login.png" alt="Tela de login do projeto" width="700" />
+  <img src="./frontend/src/assets/login.png" alt="Tela de login do projeto" width="700" />
 </p>
 
 <p align="center">
